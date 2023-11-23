@@ -1,15 +1,16 @@
 import React from "react";
 // import { ConnectWallet } from "@thirdweb-dev/react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-start">
-        <a className="navbar-item">Sweet</a>
+        <Link to="/" className="navbar-item">
+          Sweet
+        </Link>
       </div>
-      <div className="navbar-end">
-        <button className="btn">Connect button</button>
-      </div>
+      <div className="navbar-end">{/* <ConnectWallet /> */}</div>
     </div>
   );
 }

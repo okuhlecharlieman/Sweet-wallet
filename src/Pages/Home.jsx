@@ -7,6 +7,7 @@ import Deposit from "../Components/Deposit";
 import Withdraw from "../Components/Withdraw";
 import Invest from "../Components/Invest";
 import Liquidity from "../Components/Liquidity";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -16,7 +17,9 @@ function Home() {
       <div className="flex justify-center w-full ">
         <div className="btn-group btn-group-rounded btn-group-scrollable flex flex-wrap mt-2">
           <button className="btn">Send</button>
-          <button className="btn">Receive</button>
+          <Link to="/Receive" className="btn">
+            Receive
+          </Link>
           <button className="btn btn-active">Pay</button>
         </div>
       </div>
