@@ -1,5 +1,5 @@
 import React from "react";
-// import { ConnectWallet } from "@thirdweb-dev/react";
+//import { ConnectWallet } from "@thirdweb-dev/react";
 import { Link } from "react-router-dom";
 
 function Navbar() {

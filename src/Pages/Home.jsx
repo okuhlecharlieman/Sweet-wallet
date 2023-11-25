@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
+    <div className="bg-gradient-to-t from-green-500  to-cyan-400">
       <Navbar />
       <CurrentAmount />
       <div className="flex justify-center w-full ">
